@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "furnacepeek",
+  "version": "${version}",
+  "name": "Furnace Peek",
+  "description": "Look at a furnace, smoker or blast furnace to see its status and an estimate of how long until it's done.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.furnacepeek.FurnacePeekClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
